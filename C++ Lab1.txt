@@ -24,6 +24,7 @@ vector<pair<int, int>> factorize(int x) {
 }
 
 int main() {
+    cout << "Семенов Дмитрий Викторович 020303-АИСа-о24" << endl;
     int A, B;
     cin >> A >> B;
 
@@ -45,7 +46,6 @@ int main() {
         int required_n = (exp_a + exp_b - 1) / exp_b; // Округление вверх
         n = max(n, required_n);
     }
-    cout << "Семенов Дмитрий Викторович 020303-АИСа-о24" << endl;
     cout << n << endl;
     return 0;
 }
